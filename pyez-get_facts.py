@@ -3,7 +3,7 @@
 from jnpr.junos import Device
 from pprint import pprint
 
-switch = {'host': '10.92.105.228', 'user': 'enoc', 'password': 'New@2019'}
+switch = {'host': 'hostname', 'user': 'username', 'password': 'password'}
 
 with Device(
     host=switch['host'],
